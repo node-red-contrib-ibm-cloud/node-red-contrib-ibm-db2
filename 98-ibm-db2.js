@@ -28,7 +28,8 @@ module.exports = function (RED) {
     if (
       i.match(/^(Analytics)/i) ||
       i.match(/^(dashDB)/i) ||
-      i.match(/^(sqldb)/i)
+      i.match(/^(sqldb)/i) ||
+      i.match(/^(db2OnCloud)/i)
     ) {
       Db2services = Db2services.concat(
         appEnv.services[i].map(extractProperties)
