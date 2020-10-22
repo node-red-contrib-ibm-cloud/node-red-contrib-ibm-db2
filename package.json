@@ -1,6 +1,6 @@
 {
     "name"         : "node-red-contrib-ibm-db2",
-    "version"      : "0.3.2",
+    "version"      : "0.3.3",
     "description"  : "Node-RED nodes to access Db2 cloud services and Db2 LUW",
     "dependencies" : {
         "cfenv": "x",
